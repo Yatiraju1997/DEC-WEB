@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DS loves</title>
+</head>
+
+<body>
+
+	<nav>
+	    <span>i love you Potti</span>
+	</nav>
+	<section>
+         <img src="images/potti.jpg">
+         <h4>nyc smile</h4>
+         <h5>beautyfull</h5>
+       <br>
+         <img src="images/potti1.jpg">
+         <h4>cuty</h4>
+         <h5>bungamothi</h5>
+       </br>
+         
+	</selection>
+	</body>
+</html>

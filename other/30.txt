@@ -1,0 +1,20 @@
+curl -sO http://35.154.42.33:8080/jnlpJars/agent.jar
+java -jar agent.jar -jnlpUrl http://35.154.42.33:8080/computer/build%20node/jenkins-agent.jnlp -secret 31dd9be32fe2199b2379da14bb57922003e09e45cc900f0329b07722e707aa31 -workDir "/opt/build"
+
+
+
+
+Ansible Commands Master machine:
+______
+-> Sudo su
+->sudo amazon-linux-extras install ansible2 -y
+->yum install python python-pip python-devel openssl
+->vim /etc/ansible/hosts ----adding private ip addresses
+-> vim /etc/ansible/ansible.cfg  ---uncomment the invetory and sudousers
+-> vim /etc/ssh/sshd_config  --give password athentication
+-> systemctl restart sshd
+-> sudo visudo
+-> useadd username
+-> passwd userpasswd
+-> ssh-keygen
+-> ssh-copy-id username@privateipaddress

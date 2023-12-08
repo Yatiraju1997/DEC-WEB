@@ -1,0 +1,2 @@
+curl -sO http://35.154.110.83:8080/jnlpJars/agent.jar
+java -jar agent.jar -jnlpUrl http://35.154.110.83:8080/computer/build%20java%20application/jenkins-agent.jnlp -secret 51d4398f7f1c6ec0ee35cac81f35f095596d7f6eaa261f2cc82316a91c98f8ac -workDir "/opt/build"
